@@ -8,9 +8,9 @@
     --cor7: #fff;
 }
 
-*{
-  margin: 0;
-  padding: 0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 .header {
@@ -58,7 +58,7 @@ li {
     border-radius: 5px;
 }
 
-.login-modal {
+.modal {
     display: none;
     position: fixed;
     top: 50%;

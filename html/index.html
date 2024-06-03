@@ -22,19 +22,32 @@
             </ul>
         </nav>
         <div>
-            <button class="login-button" onclick="openModal()">Login</button>
+            <button class="login-button" onclick="openLoginModal()">Login</button>
+            <button class="login-button" onclick="openRegisterModal()">Cadastre-se</button>
         </div>
     </header>
 
     <div class="modal-overlay" id="modal-overlay"></div>
-    <div class="login-modal" id="login-modal">
+    
+    <div class="modal" id="login-modal">
         <div class="modal-header">Login</div>
         <div class="modal-body">
-            <input type="text" placeholder="Usuário" id="nome">
-            <input type="password" placeholder="Senha" id="senha">
+            <input type="text" placeholder="Usuário" id="login-nome">
+            <input type="password" placeholder="Senha" id="login-senha">
             <button class="login-button" onclick="login()">Entrar</button>
             <button class="close-button" onclick="closeModal()">Fechar</button>
             <p id="login-error" class="error-message"></p>
+        </div>
+    </div>
+
+    <div class="modal" id="register-modal">
+        <div class="modal-header">Cadastro</div>
+        <div class="modal-body">
+            <input type="text" placeholder="Usuário" id="register-nome">
+            <input type="password" placeholder="Senha" id="register-senha">
+            <button class="login-button" onclick="register()">Cadastrar</button>
+            <button class="close-button" onclick="closeModal()">Fechar</button>
+            <p id="register-error" class="error-message"></p>
         </div>
     </div>
 </body>
