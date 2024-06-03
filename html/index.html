@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="shortcuticon" href="">
+    <link rel="shortcut icon" href="">
     <link rel="stylesheet" href="/css/styles.css">
     <script src="/js/script.js" defer></script>
 </head>
@@ -13,29 +13,29 @@
         <a href="index.html"><img class="cabecalho_logo" src="/src/assets/img/logotipo.png" alt=""></a>
         <nav class="cabecalho_menu">
             <ul class="cabecalho_menu_lista">
-                <li>
-                    <a href="index.html">O Problema</a>
-                </li>
-                <li>
-                    <a href="tecnologia.html">Tecnologia</a>
-                </li>
-                <li>
-                    <a href="objetivo.html">Objetivos</a>
-                </li>
-                <li>
-                    <a href="paraquem.html">Para quem</a>
-                </li>
-                <li>
-                    <a href="beneficios.html">Beneficios</a>
-                </li>
-                <li>
-                    <a href="impactos.html">Impactos</a>
-                </li>
+                <li><a href="index.html">O Problema</a></li>
+                <li><a href="tecnologia.html">Tecnologia</a></li>
+                <li><a href="objetivo.html">Objetivos</a></li>
+                <li><a href="paraquem.html">Para quem</a></li>
+                <li><a href="beneficios.html">Benefícios</a></li>
+                <li><a href="impactos.html">Impactos</a></li>
             </ul>
         </nav>
         <div>
-            <button>Login</button>
+            <button class="login-button" onclick="openModal()">Login</button>
         </div>
     </header>
+
+    <div class="modal-overlay" id="modal-overlay"></div>
+    <div class="login-modal" id="login-modal">
+        <div class="modal-header">Login</div>
+        <div class="modal-body">
+            <input type="text" placeholder="Usuário" id="nome">
+            <input type="password" placeholder="Senha" id="senha">
+            <button class="login-button" onclick="login()">Entrar</button>
+            <button class="close-button" onclick="closeModal()">Fechar</button>
+            <p id="login-error" class="error-message"></p>
+        </div>
+    </div>
 </body>
 </html>
