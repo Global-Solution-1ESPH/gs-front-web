@@ -5,9 +5,14 @@
 
 @font-face {
     font-family: 'MontserratRegular';
-    src: url('font/Montserrat-Regular.ttf');
+    src: url('/src/assets/font/Montserrat-VariableFont_wght.ttf');
     font-weight: normal;
     font-style: normal;
+}
+
+@font-face {
+    font-family: 'MontserratExtraBold';
+    src: url('/src/assets/font/static/Montserrat-ExtraBold.ttf');
 }
 
 
@@ -20,8 +25,9 @@
     --cor6: #C9DCC6;
     --cor7: #E2DDD7;
     --textcolor: #253C5E;
-    --font-primary-regular: 'MontserratRegular', sans-serif;
-    --font-primary-bold: 'MontserratBold', sans-serif;
+    --font-regular: 'MontserratRegular', sans-serif;
+    --font-bold: 'MontserratBold', sans-serif;
+    --font-extrabold: 'MontserratExtraBold', sans-serif;
 }
 
 * {
@@ -44,16 +50,12 @@
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
-    color: var(--textcolor);
+    color: var(--cor3);
 }
 
 .header a:hover {
-    color: black;
+    color: var(--textcolor);
     cursor: pointer;
-}
-
-.header a:active{
-
 }
 
 li {
@@ -79,7 +81,6 @@ li {
     height: 49px;
     font-weight: bold;
     font-size: 20px;
-    padding: 10px 20px;
     font-size: 17.1px;
     cursor: pointer;
     border: none;
@@ -89,12 +90,8 @@ li {
 }
 
 .login-button:hover{
+    background-color: var(--textcolor);
     cursor: pointer;
-}
-
-
-.login-button:active{
-
 }
 
 .login-button-header{
@@ -109,11 +106,16 @@ li {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: var(--cor7);
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    width: 310px;
+    height: 355px;
+    padding: 19px;
+    border-radius: 40px;
     z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
 }
 
 .modal-overlay {
@@ -128,34 +130,74 @@ li {
 }
 
 .modal-header {
-    margin-bottom: 20px;
-    font-size: 18px;
-    font-weight: bold;
-    color: var(--cor5);
+
+    font-size: 40px;
+    font-family: var(--font-extrabold);
+    color: var(--textcolor);
+    display: flex;
+    justify-content: center;
 }
 
 .modal-body {
     display: flex;
     flex-direction: column;
+    align-items: center; 
 }
 
 .modal-body input {
-    padding: 10px;
-    margin-bottom: 10px;
-    font-size: 16px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
+#register-nome, #login-nome{
+    margin-top: 35px;
+}
+
+.modal input {
+    margin-bottom: 17px;
+    font-size: 20px;
+    font-family: var(--font-regular);
+    width: 274px;
+    height: 47px;
+    display: block;
+    text-indent: 29px; 
+}
+
+
 .close-button {
-    padding: 10px;
-    font-size: 16px;
+    width: 274px;
+    height: 47px;
+    font-size: 24px;
+    font-family: var(--font-bold);
     cursor: pointer;
     border: none;
-    background-color: #dc3545;
-    color: var(--cor7);
-    border-radius: 5px;
-    margin-top: 10px;
+    background-color: var(--cor3);
+    color: white;
+    border-radius: 20px;
+}
+
+#login-entrar{
+    width: 274px;
+    height: 47px;
+    font-size: 24px;
+    font-family: var(--font-bold);
+    cursor: pointer;
+    background-color: var(--cor4);
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 17px;
+}
+
+#register-button{
+    width: 274px;
+    height: 47px;
+    font-size: 24px;
+    font-family: var(--font-bold);
+    cursor: pointer;
+    background-color: var(--cor4);
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 17px;
 }
 
 .error-message {
