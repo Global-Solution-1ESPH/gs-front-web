@@ -1,11 +1,27 @@
+@font-face {
+    font-family: 'MontserratBold';
+    src: url('/src/assets/font/static/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'MontserratRegular';
+    src: url('font/Montserrat-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 :root {
-    --cor1: #5DF5EB;
-    --cor2: #5D9FF5;
-    --cor3: #5BCFF5;
-    --cor4: #5DF5B6;
-    --cor5: #1832F5;
-    --cor6: #AEE3F5;
-    --cor7: #fff;
+    --cor1: #0D9F92;
+    --cor2: #5FAD9F;
+    --cor3: #64A8BD;
+    --cor4: #8DC3B5;
+    --cor5: #9DC3CE;
+    --cor6: #C9DCC6;
+    --cor7: #E2DDD7;
+    --textcolor: #253C5E;
+    --font-primary-regular: 'MontserratRegular', sans-serif;
+    --font-primary-bold: 'MontserratBold', sans-serif;
 }
 
 * {
@@ -14,21 +30,30 @@
 }
 
 .header {
-    background-color: var(--cor1);
+    width: 1920px;
+    height: 74px;
+    background-color: var(--cor7);
     height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: var(--font-primary-bold);
 }
 
 .header a {
+    font-size: 20px;
+    font-weight: bold;
     text-decoration: none;
-    color: var(--cor7);
+    color: var(--textcolor);
 }
 
 .header a:hover {
-    color: var(--cor2);
+    color: black;
     cursor: pointer;
+}
+
+.header a:active{
+
 }
 
 li {
@@ -36,26 +61,46 @@ li {
 }
 
 .cabecalho_logo {
+    padding-left: 15px;
     align-items: center;
-    width: 300px;
-    margin-left: 30px;
+    width: 112px;
+    height: 112px;
+    margin-left: 55px;
 }
 
 .cabecalho_menu_lista {
     display: flex;
     align-items: center;
-    gap: 50px;
-    margin-right: 60px;
+    gap: 90px;
 }
 
 .login-button {
+    width: 138px;
+    height: 49px;
+    font-weight: bold;
+    font-size: 20px;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 17.1px;
     cursor: pointer;
     border: none;
-    background-color: var(--cor2);
-    color: var(--cor7);
-    border-radius: 5px;
+    background-color: var(--cor3);
+    color: white;
+    border-radius: 100px;
+}
+
+.login-button:hover{
+    cursor: pointer;
+}
+
+
+.login-button:active{
+
+}
+
+.login-button-header{
+    display: flex;
+    gap: 31px;
+    margin-right: 55px;
 }
 
 .modal {
