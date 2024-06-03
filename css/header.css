@@ -112,7 +112,6 @@ li {
     padding: 19px;
     border-radius: 40px;
     z-index: 1000;
-    display: flex;
     flex-direction: column;
     align-items: center; 
     justify-content: center; 
