@@ -1,0 +1,51 @@
+:root{
+    --cor1: #5DF5EB;
+    --cor2: #5D9FF5;
+    --cor3: #5BCFF5; 
+    --cor4: #5DF5B6; 
+    --cor5: #1832F5;
+    --cor6: #AEE3F5;
+    --cor7: #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: var(--cor1);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a{
+    text-decoration: none;
+    color: var(--cor7);
+}
+
+.header a:hover{
+    color: var(--cor2);
+    cursor: pointer;
+}
+
+li{
+    list-style-type: none;
+}
+
+.cabecalho_logo{
+    align-items: center;
+    width: 300px;
+    margin-left: 30px;
+}
+
+.cabecalho_menu_lista{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-right: 60px;
+}
+
+
