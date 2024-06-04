@@ -42,6 +42,7 @@ function register() {
         users.push({ nome, senha });
         alert('Cadastro realizado com sucesso!');
         closeModal();
+        openLoginModal();
     }
 }
 
