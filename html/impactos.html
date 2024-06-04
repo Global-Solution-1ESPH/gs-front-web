@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impactos</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html"><img class="cabecalho_logo" src="/src/assets/img/oceanovive_logotipo.png" alt=""></a>
+        <nav class="cabecalho_menu">
+            <ul class="cabecalho_menu_lista">
+                <li><a href="index.html">O Problema</a></li>
+                <li><a href="tecnologia.html">Tecnologia</a></li>
+                <li><a href="objetivo.html">Objetivos</a></li>
+                <li><a href="paraquem.html">Para quem</a></li>
+                <li><a href="beneficios.html">Benefícios</a></li>
+                <li><a href="impactos.html">Impactos</a></li>
+            </ul>
+        </nav>
+        <div class="login-button-header" id="login-buttons">
+            <button class="login-button" onclick="openLoginModal()">Login</button>
+            <button class="login-button" onclick="openRegisterModal()">Cadastre-se</button>
+        </div>
+        <div class="user-info" id="user-info" style="display: none;">
+            <span id="user-name"></span>
+            <button class="logout-button" onclick="logout()">Logout</button>
+        </div>
+
+        
+    </header>
+
+    <div class="modal-overlay" id="modal-overlay"></div>
+    
+    <div class="modal" id="login-modal">
+        <div class="modal-header">LOGIN</div>
+        <div class="modal-body">
+            <input type="text" placeholder="Usuário" id="login-nome">
+            <input type="password" placeholder="Senha" id="login-senha">
+            <button class="login-button" id="login-entrar" onclick="login()">Entrar</button>
+            <button class="close-button" onclick="closeModal()">Fechar</button>
+            <p id="login-error" class="error-message"></p>
+        </div>
+    </div>
+
+    <div class="modal" id="register-modal">
+        <div class="modal-header">CADASTRO</div>
+        <div class="modal-body">
+            <input type="text" placeholder="Usuário" id="register-nome">
+            <input type="password" placeholder="Senha" id="register-senha">
+            <button class="login-button" id="register-button" onclick="register()">Cadastrar</button>
+            <button class="close-button" onclick="closeModal()">Fechar</button>
+            <p id="register-error" class="error-message"></p>
+        </div>
+    </div>
+    
+    <footer>
+
+        <div class="container_info">
+                <div class="conteudo">
+                    <img class="img_oceanoVive" src="/src/assets/img/oceanovive_Escrita_logo.png" alt="Oceano Vive">
+                    <div class="footer-colunas">
+                        <p><a href="#">Termos e Condições</a></p>
+                        <p><a href="#">Recomendações</a></p>
+                        <p><a href="#">Como Ajudar</a></p>
+                    </div>
+                    <div class="footer-colunas">
+                        <p><a href="#">Twitter</a></p>
+                        <p><a href="#">Instagram</a></p>
+                        <p><a href="#">TikTok</a></p>
+                    </div>
+                    <div class="footer-colunas">
+                        <p>(11) 1234-5678</p>
+                        <p>oceanovive@contato.com.br</p>
+                        <p>São Paulo, SP - Brasil</p>
+                    </div>
+                </div>
+            </div>
+            <p class="copy">Copyright © 2024 by Oceano Vive</p>
+            </footer>

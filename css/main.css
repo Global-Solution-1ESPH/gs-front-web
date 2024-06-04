@@ -35,6 +35,11 @@
     padding: 0;
 }
 
+main{
+    width: 1920px;
+    height: 1080px;
+}
+
 body{
 background-color: var(--cor5);
 }
@@ -58,19 +63,84 @@ background-color: var(--cor5);
 }
 
 .container_parceiros{
+    margin-bottom: 74px;
     background-color: var(--cor5);
-    
 }
 
-.h2_parceiros{
-    margin: 0 80px;
+.p_parceiros{
+    font-family: var(--font-bold);
+    font-size: 48;
     color: white;
     font-size: 48px;
+    margin-left: 108px;
+    margin-bottom: 74px;
 }
 
 .parceiros{
     margin: 35px;
     display: flex;
-    gap: 10rem;
+    justify-content: center;
+    gap: 70px;
     height: 50px;
+}
+
+#oceanolimpo{
+    width: 203px;
+    height: 63px;
+}
+
+#select{
+    width: 203.13px;
+    height: 64.39px;
+}
+
+#aws{
+    width: 82.05px;
+    height: 82.05px;
+}
+
+#usp{
+    width: 411px;
+    height: 146px;
+    margin-top: -45px;
+}
+
+#unesco{
+    width: 83.69px;
+    height: 62.46px;
+}
+
+#pacto{
+    width: 264px;
+    height: 92px;
+    margin-top: -20px;
+}
+
+#o2o{
+    width: 126px;
+    height: 71px;
+}
+
+.container_info img{
+    margin-top: 23px;
+    display: block;
+    margin-left: 0px;
+    padding-left: 50px;
+    width: 227px;
+    height: 151px;
+}
+
+.footer-colunas{
+    padding-right: 120px;
+    font-family: var(--font-bold);
+    color: white;
+    font-size: 15px;
+    padding-top: 27px;
+}
+
+.copy{
+    font-family: var(--font-extrabold);
+    font-size: 18;
+    color: white;
+    padding-bottom: 12px;
 }
