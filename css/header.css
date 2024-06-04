@@ -6,15 +6,12 @@
 @font-face {
     font-family: 'MontserratRegular';
     src: url('/src/assets/font/Montserrat-VariableFont_wght.ttf');
-    font-weight: normal;
-    font-style: normal;
 }
 
 @font-face {
     font-family: 'MontserratExtraBold';
     src: url('/src/assets/font/static/Montserrat-ExtraBold.ttf');
 }
-
 
 :root {
     --cor1: #0D9F92;
@@ -30,6 +27,12 @@
     --font-extrabold: 'MontserratExtraBold', sans-serif;
 }
 
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -43,7 +46,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: var(--font-primary-bold);
+    font-family: var(--font-bold);
 }
 
 .header a {
@@ -129,7 +132,6 @@ li {
 }
 
 .modal-header {
-
     font-size: 40px;
     font-family: var(--font-extrabold);
     color: var(--textcolor);
