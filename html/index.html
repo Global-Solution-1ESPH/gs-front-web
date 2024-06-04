@@ -21,9 +21,13 @@
                 <li><a href="impactos.html">Impactos</a></li>
             </ul>
         </nav>
-        <div class="login-button-header">
+        <div class="login-button-header" id="login-buttons">
             <button class="login-button" onclick="openLoginModal()">Login</button>
             <button class="login-button" onclick="openRegisterModal()">Cadastre-se</button>
+        </div>
+        <div class="user-info" id="user-info" style="display: none;">
+            <span id="user-name"></span>
+            <button class="logout-button" onclick="logout()">Logout</button>
         </div>
     </header>
 

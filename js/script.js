@@ -1,4 +1,5 @@
 let users = [];
+let currentUser = null;
 
 function openLoginModal() {
     document.getElementById('login-modal').style.display = 'block';
@@ -60,10 +61,28 @@ function login() {
     const user = users.find(user => user.nome === nome && user.senha === senha);
 
     if (user) {
+        currentUser = user;
         alert('Login bem-sucedido!');
+        updateUIForLoggedInUser();
         closeModal();
     } else {
         errorMessage.textContent = 'Usuário ou senha incorretos.';
         errorMessage.style.display = 'block';
     }
+}
+
+function logout() {
+    currentUser = null;
+    updateUIForLoggedOutUser();
+}
+
+function updateUIForLoggedInUser() {
+    document.getElementById('login-buttons').style.display = 'none';
+    document.getElementById('user-info').style.display = 'flex';
+    document.getElementById('user-name').textContent = currentUser.nome;
+}
+
+function updateUIForLoggedOutUser() {
+    document.getElementById('login-buttons').style.display = 'flex';
+    document.getElementById('user-info').style.display = 'none';
 }

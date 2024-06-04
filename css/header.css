@@ -205,3 +205,33 @@ li {
     margin-top: 10px;
     display: none;
 }
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 55px;
+}
+
+.user-info span {
+    font-size: 20px;
+    font-family: var(--font-bold);
+    color: var(--textcolor);
+}
+
+.logout-button {
+    width: 138px;
+    height: 49px;
+    font-weight: bold;
+    font-size: 17.1px;
+    cursor: pointer;
+    border: none;
+    background-color: var(--cor3);
+    color: white;
+    border-radius: 100px;
+}
+
+.logout-button:hover {
+    background-color: var(--textcolor);
+    cursor: pointer;
+}
