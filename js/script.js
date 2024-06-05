@@ -1,6 +1,6 @@
 let users = [];
 let currentUser = null;
-let imagens=['','',''];
+let imagens=['/src/assets/img/slideshow1.png','/src/assets/img/slideshow2.png','/src/assets/img/slideshow3.png'];
 let index = 0;
 let time = 3000;
 
@@ -90,13 +90,21 @@ function updateUIForLoggedOutUser() {
     document.getElementById('user-info').style.display = 'none';
 }
 
-function slideshow(){
-    document.getElementById('').src=imagens[index];
-    index ++;
-
-    if (index == imagens.length) {
-        index = 0;
+function slideshow() {
+    let slides = document.getElementsByClassName('slideshow');
+    
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = 'none';
     }
-    setTimeout('slidexhow()',time);
+    
+    index++;
+    if (index > slides.length) {
+        index = 1;
+    }
+
+    slides[index - 1].style.display = 'block';
+
+    setTimeout(slideshow, time);
 }
+
 slideshow();
