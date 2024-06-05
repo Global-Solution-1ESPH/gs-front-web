@@ -90,6 +90,7 @@ function updateUIForLoggedOutUser() {
     document.getElementById('user-info').style.display = 'none';
 }
 
+
 function slideshow() {
     let slides = document.getElementsByClassName('slideshow');
     
