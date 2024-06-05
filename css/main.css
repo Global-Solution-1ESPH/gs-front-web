@@ -355,24 +355,27 @@ body{
 
 /*Pagina Objetivos*/
 
-.container_Objetivo {
+.container_objetivo {
     width: 80%;
     margin: auto;
     padding: 20px;
     background-color: #e0f7fa;
-    text-align: center;
+    font-size: var(--font-bold);
 }
 
-.Titulo_Objetivo {
+.titulo_objetivo {
+    text-align: center;
     color: #00796b;
     margin-bottom: 40px;
 }
 
 .slideshow-container {
     position: relative;
-    max-width: 500px;
-    margin: auto;
+    max-width: 800px; /* Ajuste conforme necessário */
+    margin: auto; /* Centraliza o slideshow */
+    padding: 50px 0;
     margin-bottom: 40px;
+    overflow: hidden;
 }
 
 .slideshow {
@@ -380,25 +383,36 @@ body{
 }
 
 .slideshow img {
-    width: 500px;
-    height: 300px;
+    width: 100%;
+    height: auto;
     border-radius: 10px;
 }
 
 .container_objetivo_conteudo {
     display: flex;
     flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
     gap: 20px;
 }
 
 .imagem_texto {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center; /* Centraliza o conteúdo */
     background-color: #ffffff;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+    max-width: 100rem; /* Limita a largura */
+    margin: 30px;
+}
+
+
+.imagem_texto img {
+    max-width: 30%; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    border-radius: 10px;
 }
 
 .imagem_texto p {
@@ -406,32 +420,17 @@ body{
     text-align: justify;
     line-height: 1.6;
     color: #333;
-    margin: 0 20px;
-}
-
-.imagem_texto img {
-    max-width: 20%;
-    height: auto;
-    border-radius: 10px;
-}
-
-.imagem_texto:nth-child(odd) {
-    flex-direction: row-reverse;
 }
 
 @media (max-width: 768px) {
     .imagem_texto {
         flex-direction: column;
-        text-align: center;
+        align-items: center; /* Centraliza em dispositivos móveis */
     }
 
     .imagem_texto img {
         max-width: 100%;
         margin-top: 20px;
-    }
-
-    .imagem_texto p {
-        margin: 0;
     }
 }
 
