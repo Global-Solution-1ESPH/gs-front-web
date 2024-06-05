@@ -1,5 +1,8 @@
 let users = [];
 let currentUser = null;
+let imagens=['','',''];
+let index = 0;
+let time = 3000;
 
 function openLoginModal() {
     document.getElementById('login-modal').style.display = 'block';
@@ -86,3 +89,14 @@ function updateUIForLoggedOutUser() {
     document.getElementById('login-buttons').style.display = 'flex';
     document.getElementById('user-info').style.display = 'none';
 }
+
+function slideshow(){
+    document.getElementById('').src=imagens[index];
+    index ++;
+
+    if (index == imagens.length) {
+        index = 0;
+    }
+    setTimeout('slidexhow()',time);
+}
+slideshow();

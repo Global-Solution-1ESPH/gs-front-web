@@ -1,3 +1,31 @@
+@font-face {
+    font-family: 'MontserratBold';
+    src: url('/src/assets/font/static/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'MontserratRegular';
+    src: url('/src/assets/font/Montserrat-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'MontserratExtraBold';
+    src: url('/src/assets/font/static/Montserrat-ExtraBold.ttf');
+}
+
+:root {
+    --cor1: #0D9F92;
+    --cor2: #5FAD9F;
+    --cor3: #64A8BD;
+    --cor4: #8DC3B5;
+    --cor5: #9DC3CE;
+    --cor6: #C9DCC6;
+    --cor7: #E2DDD7;
+    --textcolor: #253C5E;
+    --font-regular: 'MontserratRegular', sans-serif;
+    --font-bold: 'MontserratBold', sans-serif;
+    --font-extrabold: 'MontserratExtraBold', sans-serif;
+}
 footer{
     background-color: #64A8BD;
     color: white;

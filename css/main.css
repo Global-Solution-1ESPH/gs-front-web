@@ -15,6 +15,11 @@
     src: url('/src/assets/font/static/Montserrat-ExtraBold.ttf');
 }
 
+@font-face{
+    font-family: 'MontserratMedium';
+    src: url('/src/assets/font/static/Montserrat-Medium.ttf');
+}
+
 
 :root {
     --cor1: #0D9F92;
@@ -24,10 +29,12 @@
     --cor5: #9DC3CE;
     --cor6: #C9DCC6;
     --cor7: #E2DDD7;
+    --cor8: ;
     --textcolor: #253C5E;
     --font-regular: 'MontserratRegular', sans-serif;
     --font-bold: 'MontserratBold', sans-serif;
     --font-extrabold: 'MontserratExtraBold', sans-serif;
+    --font-medium: 'MontserratMedium', sans-serif;
 }
 
 *{
@@ -35,13 +42,9 @@
     padding: 0;
 }
 
-main{
-    width: 1920px;
-    height: 1080px;
-}
 
 body{
-background-color: var(--cor5);
+    background-color: var(--cor5);
 }
 
 .background-img{
@@ -203,3 +206,169 @@ background-color: var(--cor5);
     padding-bottom: 12px;
 }
 
+
+
+.main-causas-img{
+    width: 873px;
+    height: 515px;
+    border-top-right-radius: 100px;  
+    border-bottom-right-radius: 100px;  
+}
+
+.main-causas{
+    margin-top: 126px;
+    background-color: var(--cor7);
+    display: flex;
+    width: 100%;
+}
+
+.main-causas-titulo{
+    font-family: var(--font-bold);
+    font-size: 48px;
+    color: var(--textcolor);
+    margin-top: 91px;
+}
+
+.main-causas-lista{
+    font-family: var(--font-regular);
+    font-size: 40px;
+    color: var(--textcolor);
+    margin-top: 102px;
+    margin-left: 33px;
+}
+
+.main-causas-conteudo{
+    margin-left: 174px;
+}
+
+.main-informacoes{
+    width: 100%;
+    background-color: var(--cor7);
+}
+
+.main-legendas{
+    font-family: var(--font-medium);
+    font-size: 48px;
+    display: flex;
+    gap: 446px;
+    padding-left: 230px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Pagina beneficios*/
+.container_beneficio{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.titulo_beneficios {
+    text-align: center;
+    color: #ffffff;
+}
+
+.container_beneficio_conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.beneficio_conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor3);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.beneficio_conteudo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.beneficio_conteudo p {
+    text-align: justify;
+    margin-top: 15px;
+    line-height: 1.6;
+    color: black;
+}
+
+
+/*Pagina impactos*/
+.container_impactos{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.titulo_impactos {
+    text-align: center;
+    color: #ffffff;
+}
+
+.container_impactos_conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.impactos_conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor3);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.impactos_conteudo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.impactos_conteudo p {
+    text-align: justify;
+    margin-top: 15px;
+    line-height: 1.6;
+    color: black;
+}
+
+::-webkit-scrollbar {
+    width: 12px; 
+    height: 3px;
+}
+
+
+::-webkit-scrollbar-track {
+    background-color: var();
+}
+
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--cor7);
+}
