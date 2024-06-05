@@ -587,3 +587,86 @@ body {
 ::-webkit-scrollbar-thumb {
     background-color: var(--cor7);
 }
+
+.container-paraquem {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-paraquem {
+    display: flex;
+    align-items: center;
+}
+
+.main-paraquem-texto {
+    flex: 1;
+}
+
+.main-paraquem-titulo-img {
+    max-width: 50%; 
+    width: 856px;
+    height: 571px;
+    border-radius: 100px;
+    margin-left: 20px; 
+    margin-top: 74px;
+    margin-right: 102px;
+}
+
+.estatistica {
+    margin-top: 20px;
+}
+
+.main-paraquem-titulo-p{
+    margin-left: 57px;
+    margin-top: -268px;
+    font-family: var(--font-bold);
+    font-size: 96px;
+    color: var(--textcolor);
+}
+
+.main-paraquem-texto-p{
+    font-family: var(--font-regular);
+    font-size: 30px;
+    margin-left: 57px;
+    margin-top: 57px;
+    margin-right: 160px;
+    text-align: justify;
+}
+
+.main-praquem-grafico{
+    margin-left: 55px;
+    margin-top: -230px;
+    width: 686px;
+    height: 694px;
+}
+
+.main-praquem-grafico-alarmante{
+    width: 1200px;
+    height: 573px;
+    margin-left: 327px;
+    margin-bottom: 150px;
+    margin-top: 177px;
+}
+
+.main-praquem-estatistica-titulo{
+    color: var(--textcolor);
+    font-family: var(--font-bold);
+    font-size: 70px;
+    margin-left: 245px;
+    margin-right: 124px;
+    text-align: justify;
+}
+
+.main-praquem-estatistica-texto{
+    color: var(--textcolor);
+    font-family: var(--font-regular);
+    font-size: 30px;
+    margin-left: 245px;
+    margin-right: 124px;
+}
+
+.main-praquem-segundo-titulo{
+    display: flex;
+    align-items: center;
+}
+
