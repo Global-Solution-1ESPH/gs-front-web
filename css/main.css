@@ -670,3 +670,555 @@ body {
     align-items: center;
 }
 
+@media (max-width: 1700px){
+
+    .header {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .main-paraquem-titulo-p{
+        margin-top: 20px;
+    }
+
+    .main-paraquem-texto {
+        text-align: center;
+    }
+
+    .main-paraquem-titulo-img {
+        width: 40%;
+        height: auto;
+        margin-left: 20px;
+    }
+
+    .main-praquem-segundo-titulo {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .main-praquem-grafico {
+        max-width: 50%;
+        height: auto;
+    }
+
+    .main-praquem-estatisticas {
+        text-align: center;
+    }
+
+    .main-praquem-estatistica-texto{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+    .main-praquem-grafico{
+        max-width: 40%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .main-praquem-grafico-alarmante {
+        display: block;
+        margin: 100px auto;
+        max-width: 50%;
+        height: auto;
+        align-self: center;
+    }
+}
+
+@media (max-width: 1200px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .cabecalho_logo {
+        margin: 0 auto;
+        padding-left: 0;
+    }
+
+    .cabecalho_menu_lista {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .login-button-header, .user-info {
+        margin: 0 auto;
+    }
+
+    .content-container {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 20px;
+    }
+
+    .main-titulo-p {
+        font-size: 24px;
+        width: auto;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .main-texto, .main-causas-texto, .doacao-texto {
+        margin: 0 20px;
+    }
+
+    .parceiros {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-colunas {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .copy {
+        padding: 20px;
+    }
+
+    /*O problema*/
+
+
+    
+    /*Pra Quem*/
+
+    .main-paraquem-titulo-p{
+        margin-top: 20px;
+    }
+
+    .main-paraquem-texto {
+        text-align: center;
+    }
+
+    .main-paraquem-titulo-img {
+        width: 40%;
+        height: auto;
+        margin-left: 20px;
+    }
+
+    .main-praquem-segundo-titulo {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .main-praquem-grafico {
+        max-width: 50%;
+        height: auto;
+    }
+
+    .main-praquem-estatisticas {
+        text-align: center;
+    }
+
+    .main-praquem-estatistica-texto{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+    .main-praquem-grafico{
+        max-width: 40%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .main-praquem-grafico-alarmante {
+        display: block;
+        margin: 100px auto;
+        max-width: 50%;
+        height: auto;
+        align-self: center;
+    }
+    
+
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 10px;
+    }
+
+    .login-button, .logout-button {
+        width: 100px;
+        font-size: 14px;
+    }
+
+    .modal {
+        width: 90%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .modal-header {
+        font-size: 24px;
+    }
+
+    .modal-body input {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .close-button, #login-entrar, #register-button {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .content-container {
+        margin: 0 10px;
+    }
+
+    .main-titulo-p {
+        font-size: 18px;
+    }
+
+    .main-texto, .main-causas-texto, .doacao-texto {
+        font-size: 18px;
+    }
+
+    .footer-colunas {
+        padding: 10px;
+    }
+
+    .copy {
+        font-size: 14px;
+    }
+
+
+    /*O problema*/
+
+
+
+
+    /*Objetivos*/
+
+    .slideshow-container {
+        width: 100%;
+        height: auto;
+        margin: 5px;
+    }
+
+    .slideshow-container img {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    /*Pra Quem*/
+
+    .main-paraquem-titulo-p{
+        margin-top: 20px;
+    }
+
+    .main-paraquem-texto {
+        text-align: center;
+    }
+
+    .main-paraquem-titulo-img {
+        width: 40%;
+        height: auto;
+        margin-left: 20px;
+    }
+
+    .main-praquem-segundo-titulo {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .main-praquem-grafico {
+        max-width: 50%;
+        height: auto;
+    }
+
+    .main-praquem-estatisticas {
+        text-align: center;
+    }
+
+    .main-praquem-estatistica-texto{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+    .main-praquem-grafico{
+        max-width: 40%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .main-praquem-grafico-alarmante {
+        display: block;
+        margin: 100px auto;
+        max-width: 50%;
+        height: auto;
+        align-self: center;
+    }
+
+
+    /*Beneficios*/
+
+    .beneficio_conteudo {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .beneficio_conteudo img {
+        max-width: 50%;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        order: 2;
+    }
+
+    .beneficio_conteudo p {
+        text-align: justify;
+        margin-top: 10px;
+        max-width: 100%;
+        order: 1;
+    }
+
+    .impactos_conteudo {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .impactos_conteudo img {
+        max-width: 50%;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        order: 2;
+    }
+
+    .impactos_conteudo p {
+        text-align: justify;
+        margin-top: 10px;
+        max-width: 100%;
+        order: 1;
+    }
+}
+
+@media (max-width: 480px) {
+    .login-button-header, .user-info {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .content-container {
+        margin: 0 5px;
+    }
+
+    .main-texto, .main-causas-texto, .doacao-texto {
+        font-size: 16px;
+    }
+
+    .footer-colunas {
+        padding: 5px;
+    }
+
+    .copy {
+        font-size: 12px;
+    }
+
+    /*Objetivos*/
+
+    .slideshow-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .slideshow-container img {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    /*Beneficios*/
+
+    .beneficio_conteudo {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .beneficio_conteudo img {
+        max-width: 50%;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        order: 2;
+    }
+
+    .beneficio_conteudo p {
+        text-align: justify;
+        margin-top: 10px;
+        max-width: 100%;
+        order: 1;
+    }
+    /*Impactos*/
+
+    .impactos_conteudo {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .impactos_conteudo img {
+        max-width: 50%;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        order: 2;
+    }
+
+    .impactos_conteudo p {
+        text-align: justify;
+        margin-top: 10px;
+        max-width: 100%;
+        order: 1;
+    }
+}
+
+
+
+    
+
+@media (min-width: 321px) and (max-width: 480px) {
+    .header {
+        padding: 10px;
+    }
+
+    .login-button-header, .user-info {
+        flex-direction: column;
+        gap: 10px;
+        margin: 0;
+    }
+
+    .cabecalho_menu_lista {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .login-button, .logout-button {
+        width: 120px;
+        font-size: 16px;
+    }
+
+    .content-container {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+    }
+
+    .main-titulo-p {
+        font-size: 22px;
+        width: auto;
+        height: auto;
+        margin: 0 10px;
+    }
+
+    .main-texto, .main-causas-texto, .doacao-texto {
+        font-size: 18px;
+        margin: 0 10px;
+    }
+
+    .parceiros {
+        flex-direction: column;
+        gap: 10px;
+        margin: 10px;
+    }
+
+    .footer-colunas {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .copy {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .modal {
+        width: 90%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .modal-header {
+        font-size: 20px;
+    }
+
+    .modal-body input {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .close-button, #login-entrar, #register-button {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    /*Objetivos*/
+
+    .slideshow-container {
+        width: 100%;
+        height: auto;
+    }
+    
+    .slideshow-container img {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    .slideshow img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /*Pra quem*/
+
+    .main-paraquem-titulo-img {
+        max-width: 80%;
+        width: auto;
+        height: auto;
+        border-radius: 50%;
+        margin: 20px auto;
+    }
+
+    .main-paraquem-texto-p {
+        margin: 20px;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .main-praquem-grafico-alarmante {
+        width: 100%;
+        max-width: none;
+        height: auto;
+        margin: 20px auto;
+    }
+
+    .main-praquem-estatistica-titulo,.main-praquem-estatistica-texto {
+        margin: 20px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /*Impactos*/
+    .impactos_conteudo img {
+        max-width: 30%;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        order: 2;
+    }
+}
+
