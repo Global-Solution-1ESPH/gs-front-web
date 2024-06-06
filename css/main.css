@@ -782,7 +782,53 @@ body {
 
     /*O problema*/
 
+    .content-container {
+        flex-direction: column;
+    }
 
+    .main-causas, .main-informacoes {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .main-causas-img, .main-causas-conteudo {
+        width: 100%;
+    }
+
+    .main-causas-img {
+        order: -1;
+        max-width: 90%;
+        height: auto;
+
+    }
+
+    .main-legendas, .main-imagem-video {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .main-img-img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .main-video {
+        width: 100%;
+    }
+
+    .container_parceiros {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .parceiros {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
     
     /*Pra Quem*/
 
