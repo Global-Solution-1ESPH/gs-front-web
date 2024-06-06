@@ -1268,3 +1268,65 @@ body {
     }
 }
 
+@media (max-width: 768px){
+    .main-causas{
+        width: 450px;
+    }
+
+    .main-causas-titulo{
+        margin-top: -5px;
+        margin-bottom: -65px;
+        font-size: 30px;
+        display: flex;
+        text-align: center;
+        margin-right: 400px;
+        text-align: justify;
+    }
+
+    .main-causas-lista{
+        font-size: 20px;
+        margin-right: 600px;
+        margin-left: 0;
+    }
+
+    .main-legendas{
+        font-size: 30px;
+        margin-right: 600px;
+    }
+
+    .margin-um, .margin-dois{
+        visibility: hidden;
+    }
+
+    .main-img-img{
+        visibility: hidden;
+    }
+
+    .texto-video{
+        margin-top: -300px;
+        margin-left: -60px;
+        margin-right: 600px;
+    }
+
+    .main-video{
+        margin-top: -300px;
+        margin-bottom: -300px;
+    }
+
+    .container_parceiros{
+        visibility: hidden;
+    }
+
+    .main-paraquem-titulo-p{
+        font-size: 80px;
+    }
+
+    .main-paraquem-titulo-img{
+        visibility: hidden;
+    }
+
+    .main-paraquem-texto-p{
+        margin-left: 88px;
+    }
+
+}
