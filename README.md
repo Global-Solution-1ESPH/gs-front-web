@@ -40,7 +40,7 @@ Oceano Vivo é uma landing page dedicada à conscientização sobre a poluição
 - **CSS3**
 - **JavaScript**
 
-## Autores
+## Autores 🖋️
 - [Giulia Barbizan](https://github.com/Giulia-Rocha) RM: **558084**
 - [Gustavo Viega](https://github.com/Vieg4) RM: **555885**
 - [Felipe Marques](https://github.com/FelipeMarquesdeOliveira) RM: **556319**
